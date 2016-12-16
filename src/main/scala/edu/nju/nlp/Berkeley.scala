@@ -1,16 +1,27 @@
 package edu.nju.nlp
 
-/**
-  * Created by YWJ on 2016.12.16.
-  * Copyright (c) 2016 NJU PASA Lab All rights reserved.
-  */
-object Berkeley {
+import scala.collection.JavaConversions._
+import scala.concurrent.Lock
+
+import edu.stanford.nlp.trees.Tree
+import edu.stanford.nlp.trees.Trees
+import edu.stanford.nlp.trees.LabeledScoredTreeNode
+import edu.stanford.nlp.ling.HasWord
+import edu.stanford.nlp.ling.Word
+
+import edu.berkeley.nlp.PCFGLA.{CoarseToFineMaxRuleParser, ParserData, TreeAnnotations}
+import edu.berkeley.nlp.util.Numberer
+
+import NLPConfig._
+
+object BerkeleyUtil {
   type BerkeleyTree = edu.berkeley.nlp.syntax.Tree[String]
 
   implicit def stanfordTree2BerkeleyTree(btree:BerkeleyTree):Tree = {
-    val roots = TreeAnnotations.unAnnotateTree(btree).getChildren;
+    //val roots = TreeAnnotations.unAnnotateTree
+    val roots = TreeAnnotations.unAnnotateTree(btree, false).getChildren
     if (roots.isEmpty) {
-      new LabeledScoredTreeNode();
+      new LabeledScoredTreeNode()
     } else {
       def convert(src:BerkeleyTree):Tree = {
         val dst:Tree = new LabeledScoredTreeNode
@@ -19,18 +30,19 @@ object Berkeley {
         dst
       }
       new LabeledScoredTreeNode(new Word("TOP"),
-        List[Tree](convert(roots.get(0))))
+                                List[Tree](convert(roots.get(0))))
     }
   }
+  
   lazy val berkeleyParser = {
     // (function to create parser)
     def mkParser = {
       // (setup parser)
       val pData = ParserData.Load(parse.model)
       if (pData == null) throw new RuntimeException("Failed to load Berkeley parser model")
-      val grammar = pData.getGrammar();
-      val lexicon = pData.getLexicon();
-      Numberer.setNumberers(pData.getNumbs());
+      val grammar = pData.getGrammar()
+      val lexicon = pData.getLexicon()
+      Numberer.setNumberers(pData.getNumbs())
       // (create parser object)
       val parser = new CoarseToFineMaxRuleParser(
         grammar, lexicon, 1.0, -1, false, false, false,
