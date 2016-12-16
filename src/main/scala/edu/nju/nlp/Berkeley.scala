@@ -9,7 +9,7 @@ import edu.stanford.nlp.trees.LabeledScoredTreeNode
 import edu.stanford.nlp.ling.HasWord
 import edu.stanford.nlp.ling.Word
 
-import edu.berkeley.nlp.PCFGLA.{CoarseToFineMaxRuleParser, ParserData, TreeAnnotations}
+import edu.berkeley.nlp.PCFGLA.{ConstrainedArrayParser, CoarseToFineMaxRuleParser, ParserData, TreeAnnotations}
 import edu.berkeley.nlp.util.Numberer
 
 import NLPConfig._
@@ -51,16 +51,16 @@ object BerkeleyUtil {
       try {
         val binarizationField = classOf[ConstrainedArrayParser].getDeclaredField("binarization");
         binarizationField.setAccessible(true);
-        binarizationField.set(parser, pData.getBinarization());
+        binarizationField.set(parser, pData.getBinarization())
         binarizationField.setAccessible(false);
       } catch { case (e:Exception) => throw new RuntimeException(e) }
       // (parser object)
       new {
         def parse(words:List[String], pos:List[String]):Tree = {
-          var parsedTree:BerkeleyTree
-          = parser.getBestConstrainedParse(words, pos, null);
+          var parsedTree:BerkeleyTree = parser.getBestConstrainedParse(words, pos, false)
           if (parsedTree.getChildren().isEmpty()) {
-            parsedTree = parser.getBestConstrainedParse(words, null, null);
+            parsedTree = parser.getBestConstrainedParse(words, null, false)
+              //parser.getBestConstrainedParse(words, null, null)
           }
           parsedTree
         }
