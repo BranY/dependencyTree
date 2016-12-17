@@ -4,7 +4,6 @@ import edu.nju.nlp.NLP._
 import edu.stanford.nlp.ling.CoreLabel
 import edu.stanford.nlp.process.PTBTokenizer
 import edu.stanford.nlp.trees.{GrammaticalStructure, PennTreebankLanguagePack, Tree, TypedDependency}
-
 import scala.collection.JavaConversions._
 
 object Sentence {
