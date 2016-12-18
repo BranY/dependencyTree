@@ -29,6 +29,8 @@ object parser {
     val t1 = System.nanoTime()
 
     val data = Source.fromFile(new File(inputFile)).getLines().toArray
+
+    val sp = data.splitAt(10)
       //.map(x => Sentence(x))
     data.foreach(elem => {
       val se = Sentence(elem)
