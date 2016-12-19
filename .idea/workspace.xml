@@ -7,17 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cda5716e-34b7-4812-a7c4-e6650c2f4e72" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/Berkeley.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/Classify.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/Document.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/Magic.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/NLP.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/NLPConfig.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/Optimize.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/Sentence.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/TokensRegex.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/mt/parser.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/nju/nlp/mt/test.scala" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="parser.iws" />
@@ -861,7 +850,13 @@
       <option name="project" value="LOCAL" />
       <updated>1482133896590</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1482134103185</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1482134103185</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
