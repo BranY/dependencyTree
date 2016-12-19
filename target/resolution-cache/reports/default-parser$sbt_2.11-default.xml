@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20161219152542"/>
+		date="20161219155847"/>
 	<dependencies>
 		<module organisation="org.scalastyle" name="scalastyle-sbt-plugin">
 			<revision name="0.6.0" status="release" pubdate="20141019015920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalastyle.org" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="56">
