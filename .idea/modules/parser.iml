@@ -17,6 +17,8 @@
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/resource_managed/main" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/resource_managed/test" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala-2.11" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/resolution-cache" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
@@ -25,22 +27,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
     <orderEntry type="library" name="SBT: it.unimi.dsi:fastutil:7.0.13:jar" level="project" />
-    <orderEntry type="module-library">
-      <library name="SBT: unmanaged-jars">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/stanford-parser-3.4-models.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/stanford-corenlp-3.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/stanford-corenlp-3.4-javadoc.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/stanford-parser-3.4-sources.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/stanford-corenlp-3.4-models.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/stanford-corenlp-3.4-sources.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/stanford-parser-3.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../lib/berkeleyparser-r32.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="SBT: com.googlecode.efficient-java-matrix-library:ejml:0.23:jar" level="project" />
     <orderEntry type="library" name="SBT: com.io7m.xom:xom:1.2.10:jar" level="project" />
     <orderEntry type="library" name="SBT: de.jollyday:jollyday:0.4.7:jar" level="project" />
@@ -53,5 +39,6 @@
     <orderEntry type="library" name="SBT: xalan:xalan:2.7.0:jar" level="project" />
     <orderEntry type="library" name="SBT: xerces:xercesImpl:2.8.0:jar" level="project" />
     <orderEntry type="library" name="SBT: xml-apis:xml-apis:1.3.03:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.berkeley.nlp:berkeleyparser:r32:jar" level="project" />
   </component>
 </module>

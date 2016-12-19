@@ -18,8 +18,24 @@ libraryDependencies ++= Seq(
   // "edu.berkeley.nlp" % "berkeleyparser" % "r32",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.4",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.4" classifier "models",
-  "edu.stanford.nlp" % "stanford-parser" % "3.4"
+  "edu.stanford.nlp" % "stanford-parser" % "3.4" ,
+  "edu.berkeley.nlp" % "berkeleyparser" % "r32"
+
 )
+/*
+<dependencies>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.5.2</version>
+            <classifier>models</classifier>
+        </dependency>
+ */
 
 mergeStrategy in assembly <<= (mergeStrategy in assembly) {
   (old) => {
