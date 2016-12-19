@@ -4,7 +4,7 @@
 		module="parser-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161216225402"
+		publication="20161219151424"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
