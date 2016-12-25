@@ -4,7 +4,7 @@
 		module="parser_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161219155856"
+		publication="20161225214726"
 	>
 		<description>
 		parser
@@ -38,7 +38,6 @@
 			<artifact name="stanford-corenlp" type="jar" ext="jar" conf="compile"/>
 			<artifact name="stanford-corenlp" type="jar" ext="jar" conf="*" e:classifier="models"/>
 		</dependency>
-		<dependency org="edu.stanford.nlp" name="stanford-parser" rev="3.4" conf="compile->default(compile)"/>
 		<dependency org="edu.berkeley.nlp" name="berkeleyparser" rev="r32" conf="compile->default(compile)"/>
 		<dependency org="it.unimi.dsi" name="fastutil" rev="7.0.13" conf="compile->default(compile)"/>
 	</dependencies>

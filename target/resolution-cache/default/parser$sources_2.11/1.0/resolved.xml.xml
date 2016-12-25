@@ -4,7 +4,7 @@
 		module="parser$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161219155857"
+		publication="20161225214727"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -53,9 +53,6 @@
 		</dependency>
 		<dependency org="javax.json" name="javax.json-api" rev="1.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="javax.json-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="edu.stanford.nlp" name="stanford-parser" rev="3.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="stanford-parser" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="edu.berkeley.nlp" name="berkeleyparser" rev="r32" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="berkeleyparser" type="src" ext="jar" conf="sources" e:classifier="sources"/>

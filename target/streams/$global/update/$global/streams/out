@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#parser_2.11;1.0 [compile]
 [debug] == resolving dependencies default#parser_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d0f10a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32a041ec
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies default#parser_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.4 [compile->default(compile)]
 [info] Resolving edu.stanford.nlp#stanford-corenlp;3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65f32e10
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29736ffd
 [debug] sbt-chain: module revision found in cache: edu.stanford.nlp#stanford-corenlp;3.4
 [debug] 	found edu.stanford.nlp#stanford-corenlp;3.4 in sbt-chain
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.4 [compile->runtime]
@@ -119,18 +119,6 @@
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->compile]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.4 [compile->master]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->default(compile)]
-[info] Resolving edu.stanford.nlp#stanford-parser;3.4 ...
-[debug] sbt-chain: Checking cache for: dependency: edu.stanford.nlp#stanford-parser;3.4 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: edu.stanford.nlp#stanford-parser;3.4
-[debug] 	found edu.stanford.nlp#stanford-parser;3.4 in sbt-chain
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->runtime]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->compile]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->compile(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->master(compile)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->master]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->default(compile)]
 [info] Resolving edu.berkeley.nlp#berkeleyparser;r32 ...
 [debug] sbt-chain: Checking cache for: dependency: edu.berkeley.nlp#berkeleyparser;r32 {compile=[default(compile)]}
@@ -209,14 +197,6 @@
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->compile]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.4 [compile->master]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->runtime]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->compile]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->compile(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->master(compile)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->master]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->default(compile)]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->runtime]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->compile]
@@ -288,14 +268,6 @@
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->compile]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.4 [compile->master]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->runtime]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->compile]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->compile(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->master(compile)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->master]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->default(compile)]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->runtime]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->compile]
@@ -370,14 +342,6 @@
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->compile]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.4 [compile->master]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->runtime]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->compile]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->compile(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->master(compile)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->master]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->default(compile)]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->runtime]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->compile]
@@ -451,14 +415,6 @@
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->compile]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.4 [compile->master]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->runtime]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->compile]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->compile(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->master(compile)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->master]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->default(compile)]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->runtime]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->compile]
@@ -532,14 +488,6 @@
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.4->javax.json#javax.json-api;1.0 [runtime->compile]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.4 [compile->master]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->runtime]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->compile]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->compile(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->master(compile)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.stanford.nlp#stanford-parser;3.4->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
-[debug] == resolving dependencies default#parser_2.11;1.0->edu.stanford.nlp#stanford-parser;3.4 [compile->master]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->default(compile)]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->runtime]
 [debug] == resolving dependencies default#parser_2.11;1.0->edu.berkeley.nlp#berkeleyparser;r32 [compile->compile]
@@ -645,7 +593,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
 [debug] 	[NOT REQUIRED] edu.stanford.nlp#stanford-corenlp;3.4!stanford-corenlp.jar
 [debug] 	[NOT REQUIRED] edu.stanford.nlp#stanford-corenlp;3.4!stanford-corenlp.jar
-[debug] 	[NOT REQUIRED] edu.stanford.nlp#stanford-parser;3.4!stanford-parser.jar
 [debug] 	[NOT REQUIRED] edu.berkeley.nlp#berkeleyparser;r32!berkeleyparser.jar
 [debug] 	[NOT REQUIRED] it.unimi.dsi#fastutil;7.0.13!fastutil.jar
 [debug] 	[NOT REQUIRED] com.io7m.xom#xom;1.2.10!xom.jar
@@ -662,7 +609,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 292ms :: artifacts dl 29ms
+[debug] :: resolution report :: resolve 503ms :: artifacts dl 42ms
 [debug] 	report for default#parser_2.11;1.0 compile produced in D:\workspace\parser\target\resolution-cache\reports\default-parser_2.11-compile.xml
 [debug] 	report for default#parser_2.11;1.0 runtime produced in D:\workspace\parser\target\resolution-cache\reports\default-parser_2.11-runtime.xml
 [debug] 	report for default#parser_2.11;1.0 test produced in D:\workspace\parser\target\resolution-cache\reports\default-parser_2.11-test.xml
@@ -676,5 +623,5 @@
 [debug] 	report for default#parser_2.11;1.0 docs produced in D:\workspace\parser\target\resolution-cache\reports\default-parser_2.11-docs.xml
 [debug] 	report for default#parser_2.11;1.0 pom produced in D:\workspace\parser\target\resolution-cache\reports\default-parser_2.11-pom.xml
 [debug] 	report for default#parser_2.11;1.0 scala-tool produced in D:\workspace\parser\target\resolution-cache\reports\default-parser_2.11-scala-tool.xml
-[debug] 	resolve done (292ms resolve - 29ms download)
+[debug] 	resolve done (503ms resolve - 42ms download)
 [info] Done updating.

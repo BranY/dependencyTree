@@ -30,7 +30,6 @@
     <orderEntry type="library" name="SBT: de.jollyday:jollyday:0.4.7:jar" level="project" />
     <orderEntry type="library" name="SBT: edu.stanford.nlp:stanford-corenlp:3.4:jar" level="project" />
     <orderEntry type="library" name="SBT: edu.stanford.nlp:stanford-corenlp:3.4:models:jar" level="project" />
-    <orderEntry type="library" name="SBT: edu.stanford.nlp:stanford-parser:3.4:jar" level="project" />
     <orderEntry type="library" name="SBT: javax.json:javax.json-api:1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: javax.xml.bind:jaxb-api:2.2.7:jar" level="project" />
     <orderEntry type="library" name="SBT: joda-time:joda-time:2.1:jar" level="project" />

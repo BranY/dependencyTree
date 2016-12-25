@@ -7,10 +7,10 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161219155857"/>
+		date="20161225214727"/>
 	<dependencies>
 		<module organisation="it.unimi.dsi" name="fastutil">
-			<revision name="7.0.13" status="release" pubdate="20160830015508" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://fasutil.di.unimi.it/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+			<revision name="7.0.13" status="release" pubdate="20160830015508" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://fasutil.di.unimi.it/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2650" time="0" location="C:\Users\jiaoyang_88\.ivy2\cache\it.unimi.dsi\fastutil\ivy-7.0.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/it/unimi/dsi/fastutil/7.0.13/fastutil-7.0.13.pom"/>
 				<caller organisation="default" name="parser$sources_2.11" conf="test-internal, test, optional, compile, provided, runtime" rev="7.0.13" rev-constraint-default="7.0.13" rev-constraint-dynamic="7.0.13" callerrev="1.0"/>
@@ -25,7 +25,7 @@
 			</revision>
 		</module>
 		<module organisation="edu.berkeley.nlp" name="berkeleyparser">
-			<revision name="r32" status="release" pubdate="20120327232025" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/berkeleyparser" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+			<revision name="r32" status="release" pubdate="20120327232025" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/berkeleyparser" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
 				<license name="GNU General Public License Version 2" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2576" time="0" location="C:\Users\jiaoyang_88\.ivy2\cache\edu.berkeley.nlp\berkeleyparser\ivy-r32.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/edu/berkeley/nlp/berkeleyparser/r32/berkeleyparser-r32.pom"/>
 				<caller organisation="default" name="parser$sources_2.11" conf="test-internal, test, optional, compile, provided, runtime" rev="r32" rev-constraint-default="r32" rev-constraint-dynamic="r32" callerrev="1.0"/>
@@ -35,21 +35,6 @@
 					</artifact>
 					<artifact name="berkeleyparser" type="jar" ext="jar" status="no" details="" size="1196553" time="0" location="C:\Users\jiaoyang_88\.ivy2\cache\edu.berkeley.nlp\berkeleyparser\jars\berkeleyparser-r32.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/edu/berkeley/nlp/berkeleyparser/r32/berkeleyparser-r32.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="edu.stanford.nlp" name="stanford-parser">
-			<revision name="3.4" status="release" pubdate="20140711071100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nlp.stanford.edu/software/corenlp.shtml" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
-				<license name="GNU General Public License Version 2" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3163" time="0" location="C:\Users\jiaoyang_88\.ivy2\cache\edu.stanford.nlp\stanford-parser\ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/edu/stanford/nlp/stanford-parser/3.4/stanford-parser-3.4.pom"/>
-				<caller organisation="default" name="parser$sources_2.11" conf="test-internal, test, optional, compile, provided, runtime" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="stanford-parser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2555424" time="0" location="C:\Users\jiaoyang_88\.ivy2\cache\edu.stanford.nlp\stanford-parser\srcs\stanford-parser-3.4-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/edu/stanford/nlp/stanford-parser/3.4/stanford-parser-3.4-sources.jar"/>
-					</artifact>
-					<artifact name="stanford-parser" type="jar" ext="jar" status="no" details="" size="3554764" time="0" location="C:\Users\jiaoyang_88\.ivy2\cache\edu.stanford.nlp\stanford-parser\jars\stanford-parser-3.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-parser/3.4/stanford-parser-3.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
